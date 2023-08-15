@@ -17,7 +17,7 @@ int getpivot(int*arr,int size){
 }
 
 int main() {
-    int arr[5]={7,9,1,2,3};
+    int arr[5]={7,9,1,2,3};    // pivot element is 1;
     cout<<" pivot element is at index  "<<getpivot(arr,5);
     
     return 0;
