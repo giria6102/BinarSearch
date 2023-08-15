@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int firstOcc(int*arr,int size,int key){
-        int s=0;
+        int s=0;                                 // for number occurences=(lastindex-firstindex)+1
     int e=size-1;
     int ans=-1;
     int mid=s+(e-s)/2;
